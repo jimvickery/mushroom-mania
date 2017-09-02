@@ -1,0 +1,31 @@
+<article class="=product-list">
+
+    
+
+    <section>
+        
+        <div class="panel panel-defalut">
+                <div class="panel-body">
+                        <div class="col-xs-2"><h3>Name</h3></div>
+                        <div class="col-xs-1"><h3>Edible</h3></div>
+                        <div class="col-xs-9"><h3>Description</h3></div>
+                       
+                </div>
+        </div>
+
+        <div class="panel panel-default" ng-hide="thingy.isCompleted">
+            <div class="panel-body">
+                <div ng-repeat="mushroom in mushrooms">
+                    <span ng-class-odd="'odd'" ng-class-even="'even'">
+                        <div class="col-xs-2">{{mushroom.name}}</div>
+                        <div class="col-xs-1">{{mushroom.edible}}</div>
+                        <div class="col-xs-9">{{mushroom.description}}</div>
+                    </span>
+                </div>        
+             </div>
+            </div>          
+    </sectio>
+
+
+
+</article>
