@@ -10,15 +10,11 @@
     <title>Document</title>
 </head>
 <body ng-app="MushroomApp">
-  
-       <div ="col-xs-3"><h1> Mushrooms</h1></div>
         
-    
-        <div ="col-xs-5"> <input type="text" name="text" id="text" maxlength="10"> <label for="text"></label><input type="submit" value="Search"></div><br><br>
-        <div ="col-xs-2"> <input type="radio" name="mushrooms" value="Poisonous" checked> Poisonous<br></div>
-        <input type="radio" name="mushrooms" value="Non-poisonous"> Non-poisonous<br><br>
-        </form> 
-        <div ng-view></div>
+        <div ng-view>
+
+
+        </div>
       
 
 
@@ -28,11 +24,11 @@
     <script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
     <script type="text/javascript" src="./lib/node_modules/firebase/firebase.js"></script>
 
-    <script src="app/app.js"></script>
+    <script src="./app/app.js"></script>
     <!-- factories -->
     <script src="./app/factory/MushroomFactory.js"></script>
    <!-- controllers -->
     <script src="./app/controllers/mushroomCtrl.js"></script>
-
+    
 </body>
 </html>

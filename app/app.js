@@ -3,7 +3,7 @@
 var app = angular.module("MushroomApp", ["ngRoute"]);
 
 
-app.config(function($routeProvider) {
+app.config(['$routeProvider', function($routeProvider) {
 	$routeProvider.
 	when('/', {
         templateUrl: 'partials/greetings.html'
@@ -13,7 +13,7 @@ app.config(function($routeProvider) {
         controller: "MushroomCtrl"
     }).
     otherwise('/');
-});
+}]);
 
 
 
