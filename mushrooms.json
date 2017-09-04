@@ -7,7 +7,7 @@
         },
         "mushroom1": {
             "name": "portabella",
-            "edible": true,
+            "edible": "true",
             "description": "Portabella mushrooms are similar to white mushrooms but are much larger and more brown in color. They are harvested when they are very mature, which gives them a more dense texture and a deeper flavor."
         },
         "mushroom2": {

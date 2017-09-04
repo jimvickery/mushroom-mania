@@ -2,10 +2,11 @@
 
 app.controller("MushroomCtrl", function($scope, $routeParams, MushroomFactory) {
 
+    
     MushroomFactory.getMushrooms()
     .then(function(mushroomCollection) {
-        $scope.mushrooms = mushroomCollection;
-        console.log('mushrooms', $scope.mushroom);
+        $scope.mushroomsArray = mushroomCollection;
+        // console.log('mushrooms', $scope.mushroom);
         
     });
 
